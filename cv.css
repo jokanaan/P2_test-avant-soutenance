@@ -155,6 +155,10 @@ h2
 	margin-left: 1%;
 	width: 300px;}
 
+.coté_seul
+{	text-align: left;
+	margin-left: 7.1%;}
+
 
 .coté_droit
 {	text-align: left;
@@ -174,6 +178,9 @@ aside .fas
 {	display: flex;
 	justify-content: space-between;}
 
+.y
+{	display: flex;
+	justify-content: flex-start;}
 
 
 .loisirs
