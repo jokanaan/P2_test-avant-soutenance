@@ -31,19 +31,26 @@ aside
 	padding-right: 0%;
 	left:  0%;}
 
-@media all and (max-width: 480px) {	body{	display: flex;
+@media all and (max-width: 480px) {	body{			display: flex;
 													flex-direction: column-reverse;
 													width: 100%;
 													font-size: 1em;
-													}
-											aside{	font-size: 0.9em;
+											}
+									aside{			font-size: 0.9em;
 													width: 100%;
 													float: none;
 													height: 30%;
-													}
-											article{	height: 50%;
-														}		
 											}
+									article{		height: 50%;
+													width: 100%;
+													margin-left: 0%;
+												}		
+									.x,.y{			font-size: 0.5em;
+													width: 350px;
+													margin-left: -50px;
+										}
+									.point_puce,.bullet{ margin-left: -1px; }
+									}
 
 @media all and (min-width: 480px) and (max-width: 991px)  {	h1,h2 { font-size: 1em; }	
 															body {	display: flex;
@@ -61,7 +68,8 @@ aside
 @media all and (min-width: 992px) and (max-width: 1200px)  {	h1,h2,body {font-size: 0.8em; }
 																			}
 #photo_cv	
-{	text-align: center;}
+{	text-align: center;
+	}
 
 
 article
@@ -109,7 +117,8 @@ h2
 
 
 .photo_radius
-{	border-radius: 80%;}
+{	border-radius: 80%;
+	border: 2px solid #E8EA78;}
 
 
 
@@ -193,6 +202,10 @@ li
 
 .point_puce::before{ content: "\2022"; 
 					color: #F9C319; 
-					display: inline-block; }
-
+					display: inline-block; 
+					}
+.bullet::before{ content: "\29BF";
+				color: #F9C319;
+				display: inline-block;
+				}
 
